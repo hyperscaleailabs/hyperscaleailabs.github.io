@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Constantine Gurnov — Curriculum Vitae</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font: 9.6pt/1.45 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #15171a;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: #1a3fa0; text-decoration: none; }
+
+  header { border-bottom: 1.5pt solid #15171a; padding-bottom: 7pt; margin-bottom: 12pt; }
+  h1 {
+    font-family: "Iowan Old Style", Georgia, serif;
+    font-size: 25pt; font-weight: 400; letter-spacing: -.01em;
+    margin: 0 0 4pt;
+  }
+  .contact { font-size: 8.6pt; color: #4a4f57; }
+  .contact span { margin-right: 10pt; }
+
+  h2 {
+    font-size: 7.6pt; letter-spacing: .16em; text-transform: uppercase;
+    color: #6a7078; font-weight: 600;
+    margin: 14pt 0 7pt; padding-bottom: 3pt;
+    border-bottom: .5pt solid #d3d7dd;
+  }
+  h2:first-of-type { margin-top: 0; }
+
+  .summary { font-size: 9.4pt; margin: 0 0 8pt; }
+  .kv { margin: 0 0 3pt; font-size: 8.8pt; }
+  .kv b { font-weight: 600; }
+
+  .role { margin-bottom: 11pt; page-break-inside: avoid; }
+  .role-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 10pt; margin-bottom: 1.5pt;
+  }
+  .org { font-size: 10.6pt; font-weight: 600; }
+  .yrs { font-size: 8.4pt; color: #6a7078; white-space: nowrap; }
+  .title { font-size: 9pt; color: #3a4048; font-style: italic; margin-bottom: 3.5pt; }
+  .role > p { margin: 0 0 4pt; font-size: 9pt; color: #3a4048; }
+  ul { margin: 0; padding-left: 12pt; }
+  li { margin-bottom: 3.5pt; font-size: 9pt; }
+  li::marker { color: #9aa0a8; }
+  strong { font-weight: 600; }
+
+  .edu li { margin-bottom: 2.5pt; }
+  footer {
+    margin-top: 12pt; padding-top: 5pt; border-top: .5pt solid #d3d7dd;
+    font-size: 7.6pt; color: #8a9099;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Constantine Gurnov</h1>
+  <div class="contact">
+    <span>constantine.gurnov@gmail.com</span>
+    <span>linkedin.com/in/constantinegurnov</span>
+    <span>hyperscaleailabs.github.io</span>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p class="summary">
+  ML Platform, AI Systems and AI Infrastructure Engineer. Large-scale distributed AI/ML
+  real-time streaming systems, infrastructure, machine learning, LLM systems, anomaly
+  detection, AI agentic systems, observability, evaluation, reliability engineering, BCI.
+</p>
+<p class="kv"><b>AI &amp; Machine Learning:</b> AI Agents, LLMs, Deep Neural Networks, XGB, Feature platforms.</p>
+<p class="kv"><b>Languages &amp; Stacks:</b> Python, Java, Scala; Kafka, Flink, Spark, Druid, HBase/BigTable, Redis, Kubernetes.</p>
+<p class="kv"><b>Keywords:</b> LLM Observability, LLM Reliability, Deep Learning, Machine Learning, AI, Brain Computer Interfaces, Big Data, Internet Scale, Streaming Architectures, Distributed, AI systems, ML Platforms, Infrastructure, Anomaly detection, Evaluation.</p>
+
+<h2>Professional Experience</h2>
+
+<div class="role">
+  <div class="role-head"><span class="org">Mass Identity, Inc. / Hyperscale AI</span><span class="yrs">2024 — Present</span></div>
+  <div class="title">AI Engineer</div>
+  <p>Research and prototyping of agentic AI systems; evaluation of frameworks and approaches.</p>
+  <ul>
+    <li>Designed a <strong>Production-Informed Accelerated Multi-Agentic Simulation System</strong>: production-derived failure distributions, probabilistic environment and dependency simulation, agent trajectory and multi-stage workflow evaluation, harness validation and recovery testing, low-cost accelerated execution using smaller models and cached dependencies, anomaly discovery for behaviors absent from historical datasets, release gates and automated rollback policies.</li>
+    <li>Established the feedback loop: production execution → telemetry and trajectories → streaming analysis → learned failure distributions → stochastic simulation experiments → evaluation gates → safer release → new production evidence.</li>
+    <li>Designed and built an <strong>LLM observability &amp; reliability harness</strong> to enable safe production use of non-deterministic systems. Improved structured output success rate from <strong>~71% to near-100%</strong> through prompt hardening, validation layers, normalization, and controlled recovery strategies — a deterministic contract enforced over a non-deterministic model.</li>
+    <li>Explored end-to-end observability (logs, metrics, traces) across LLM pipelines to detect schema drift, malformed outputs, latency variance, and downstream failures. Investigated control-loop patterns (observe, detect, intervene, stabilize, measure) and failure-aware recovery: classification-based retries, bounded recovery, and cost/latency tradeoff management.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head"><span class="org">Neuralink</span><span class="yrs">2022 — 2024</span></div>
+  <div class="title">AI / Software Engineer</div>
+  <p>Real-time, safety-critical, physical-AI machine learning.</p>
+  <ul>
+    <li>Built a machine-learning platform that scaled brain-computer-interface (BCI) model training and evaluation <strong>100x</strong>, to billions of neural data points.</li>
+    <li>Created BCI software and an ML model for <strong>brain-to-text communication</strong>; the system was presented at the Neuralink 2022 Show and Tell.</li>
+    <li>Delivered real-time, partially observable signal pipelines under hard latency and safety constraints — directly analogous to physical-AI and edge-agent control loops (sim-to-real, graceful degradation).</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head"><span class="org">Sift</span><span class="yrs">2019 — 2022</span></div>
+  <div class="title">Principal ML Engineer</div>
+  <p>Real-time scoring at scale; adversarial defense; internet-scale reliability.</p>
+  <ul>
+    <li>Designed and implemented a system for automated anomaly detection in near real-time streaming and ML scoring at scale of <strong>billions of events per day</strong> with peaks of <strong>50K QPS</strong>.</li>
+    <li>Led the research, design, and implementation of a bot-detection system that countered adversarial attacks affecting more than <strong>40% of Sift's traffic</strong> — adversarial-agent defense.</li>
+    <li>Designed and implemented a Rapid ML Modeling system that improved ML modeling and prototyping speed by more than <strong>10x</strong>.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head"><span class="org">Machine Zone</span><span class="yrs">2017 — 2018</span></div>
+  <div class="title">Lead Machine Learning Engineer</div>
+  <ul>
+    <li>Designed and built a large-scale distributed machine-learning platform supporting billions of events, hundreds of thousands of features, automated feature extraction, and hyperparameter search; reduced existing model-training runtime by more than <strong>10x</strong>.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head"><span class="org">Specta</span><span class="yrs">2015 — 2017</span></div>
+  <div class="title">Lead Software Engineer</div>
+  <ul>
+    <li>Built a real-time video-processing mobile app with analysis and classification by deep neural networks; the app automatically generated award-winning videos <strong>accepted and nominated at international film and fashion festivals</strong> (Denmark, NYC).</li>
+    <li>Led R&amp;D and built social-media and news sentiment correlation with the S&amp;P 500, and a deep-learning platform matching startups with angel/VC funds.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head"><span class="org">Luxoft USA : UBS</span><span class="yrs">2008 — 2015</span></div>
+  <div class="title">Technical Delivery Manager; Head of Big Data &amp; Agile Practices</div>
+  <p>Regulated, high-consequence financial infrastructure — irreversible actions, financial-grade correctness.</p>
+  <ul>
+    <li>R&amp;D of UBS mortgage, loan, and fixed-income derivatives, Risk/PnL and trading platforms for a front-to-back solution supporting fixed income and mortgage backed securities businesses, with total combined notional on the CDS contracts in range of <strong>$10T+</strong>.</li>
+    <li>R&amp;D of back-office platforms including subledger and clearing &amp; settlement; led <strong>50+ FTE</strong> and <strong>$10M budgets</strong>.</li>
+  </ul>
+</div>
+
+<h2>Education &amp; Certifications</h2>
+<ul class="edu">
+  <li>Stanford MOOC, Artificial Intelligence (2011): top 5% of students.</li>
+  <li>Stanford MOOC, Machine Learning: top 5% of class.</li>
+  <li>B.S., Computer Science — Dnipro National University, Ukraine.</li>
+</ul>
+
+<footer>Full details and open source work at hyperscaleailabs.github.io</footer>
+
+</body>
+</html>

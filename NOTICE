@@ -1,0 +1,20 @@
+Third-party components bundled in this repository
+=================================================
+
+three.js — assets/vendor/three.module.min.js
+  Version 0.169.0
+  Copyright (c) 2010-2024 three.js authors
+  Licensed under the MIT License.
+  https://github.com/mrdoob/three.js
+
+WebGL Globe land mask — assets/img/world.jpg
+  From the Google Data Arts Team "WebGL Globe" project.
+  Copyright (c) Google Inc.
+  Licensed under the Apache License, Version 2.0.
+  https://github.com/dataarts/webgl-globe
+  You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Fonts
+  Instrument Serif and Inter are served from Google Fonts and are licensed
+  under the SIL Open Font License 1.1. They are not redistributed here.

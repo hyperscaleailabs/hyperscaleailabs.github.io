@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hyperscale AI Labs — Constantine Gurnov</title>
+<meta name="description" content="Constantine Gurnov — ML platform, AI systems and AI infrastructure engineer. Large-scale distributed ML, LLM observability and reliability, agentic systems, evaluation.">
+<meta name="author" content="Constantine Gurnov">
+<link rel="canonical" href="https://hyperscaleailabs.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hyperscale AI Labs — Constantine Gurnov">
+<meta property="og:description" content="ML platform, AI systems and AI infrastructure engineering. Large-scale distributed ML, LLM observability and reliability, agentic systems, evaluation.">
+<meta property="og:url" content="https://hyperscaleailabs.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#07080a">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader-arc"></div></div>
+<div class="grid-rules" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+<header class="nav">
+  <div class="shell">
+    <a class="brand" href="index.html">Hyperscale <em>AI Labs</em></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" aria-current="page">Index</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="projects.html">Open Source</a></li>
+      <li><a href="cv/Constantine_Gurnov_CV.pdf">CV ↓</a></li>
+    </ul>
+  </div>
+</header>
+
+<div id="globe" aria-hidden="true"></div>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="shell">
+      <div>
+        <p class="label label--accent">Constantine Gurnov — ML Platform &amp; AI Infrastructure</p>
+        <h1 class="display hero-title">
+          <span>Non-deterministic</span><span class="sub">systems, held to</span><span>engineering contracts.</span>
+        </h1>
+      </div>
+      <div>
+        <p class="body-col">
+          Seventeen years building the layer underneath machine learning — distributed
+          streaming platforms, real-time scoring at internet scale, brain–computer
+          interfaces, and now the observability and evaluation harnesses that let
+          <strong>probabilistic models run in production</strong> without behaving like one.
+        </p>
+        <dl class="hero-meta">
+          <div><dt>Practice</dt><dd>ML platform · AI infra</dd></div>
+          <div><dt>Since</dt><dd>2008</dd></div>
+          <div><dt>Now</dt><dd>Agentic systems</dd></div>
+        </dl>
+      </div>
+    </div>
+    <p class="scroll-cue">Scroll</p>
+  </section>
+
+  <div class="scrim">
+  <div class="shell">
+
+    <section class="sec" id="practice">
+      <div class="sec-index"><span class="num">01</span><span class="rule"></span><span class="num">Practice</span></div>
+      <div class="sec-head">
+        <h2 class="display d2 reveal-words">
+          The hard part was never the model. It was everything that had to stay true around it.
+        </h2>
+        <div class="body-col rise">
+          <p>
+            A model returns a guess. A platform has to return a guarantee — a schema that
+            holds, a latency budget that is met, a failure that is detected and recovered
+            from rather than shipped downstream.
+          </p>
+          <p>
+            My work sits on that seam. At <strong>Sift</strong> it meant anomaly detection over
+            billions of events a day. At <strong>Neuralink</strong> it meant real-time,
+            partially observable neural signal under hard safety constraints. Today it means
+            wrapping LLMs and agent swarms in the same discipline: observe, detect, intervene,
+            stabilise, measure.
+          </p>
+        </div>
+      </div>
+
+      <div class="cap-grid">
+        <article class="cap rise" data-delay="0">
+          <p class="label">01 / Platform</p>
+          <h3>Distributed ML platforms</h3>
+          <p>Feature platforms, automated extraction, hyperparameter search and training pipelines over billions of events — Kafka, Flink, Spark, Druid, Kubernetes.</p>
+        </article>
+        <article class="cap rise" data-delay="80">
+          <p class="label">02 / Reliability</p>
+          <h3>LLM observability</h3>
+          <p>Logs, metrics and traces across LLM pipelines. Schema drift, malformed output, latency variance and downstream failure, surfaced before users meet them.</p>
+        </article>
+        <article class="cap rise" data-delay="160">
+          <p class="label">03 / Evaluation</p>
+          <h3>Agentic simulation</h3>
+          <p>Production-derived failure distributions replayed as stochastic simulation — trajectory evaluation, release gates and automated rollback policy.</p>
+        </article>
+        <article class="cap rise" data-delay="240">
+          <p class="label">04 / Real time</p>
+          <h3>Streaming &amp; scoring</h3>
+          <p>Near real-time scoring and anomaly detection at internet scale, including adversarial defence against traffic that is actively trying to evade you.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="sec" id="signal">
+      <div class="sec-index"><span class="num">02</span><span class="rule"></span><span class="num">Signal</span></div>
+      <div class="sec-head">
+        <h2 class="display d2 reveal-words">Measured outcomes, not adjectives.</h2>
+        <p class="body-col rise">
+          Each figure below is attached to a shipped system. The detail behind them
+          lives in <a class="link-u" href="work.html">Work</a>.
+        </p>
+      </div>
+      <div class="metrics">
+        <div class="metric rise" data-delay="0">
+          <span class="fig">100<sup>×</sup></span>
+          <p>Scale-up of BCI model training and evaluation, to billions of neural data points — Neuralink.</p>
+        </div>
+        <div class="metric rise" data-delay="80">
+          <span class="fig">50<sup>K</sup></span>
+          <p>Peak queries per second through real-time ML scoring and anomaly detection — Sift.</p>
+        </div>
+        <div class="metric rise" data-delay="160">
+          <span class="fig">~100<sup>%</sup></span>
+          <p>Structured-output success rate, up from ~71%, via prompt hardening, validation and bounded recovery.</p>
+        </div>
+        <div class="metric rise" data-delay="240">
+          <span class="fig">40<sup>%</sup></span>
+          <p>Share of traffic under adversarial attack that a bot-detection system was built to counter — Sift.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="work-preview">
+      <div class="sec-index"><span class="num">03</span><span class="rule"></span><span class="num">Work</span></div>
+      <div class="sec-head">
+        <h2 class="display d2 reveal-words">
+          Mass Identity. Neuralink. Sift. Machine Zone. UBS.
+        </h2>
+        <div class="body-col rise">
+          <p>
+            Five environments with one thing in common: the cost of being wrong was
+            measurable. Regulated derivatives infrastructure, safety-critical neural
+            implants, adversarial fraud traffic, and now autonomous agents.
+          </p>
+          <p style="margin-top:2rem">
+            <a class="btn" href="work.html">Full history <span class="arrow" aria-hidden="true">→</span></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="os-preview">
+      <div class="sec-index"><span class="num">04</span><span class="rule"></span><span class="num">Open source</span></div>
+      <div class="sec-head">
+        <h2 class="display d2 reveal-words">
+          Public repositories, written the way the production versions were.
+        </h2>
+        <div class="body-col rise">
+          <p>
+            Observability case studies, agent-swarm cores, control-loop notebooks and
+            ML platform reference material — published under
+            <a class="link-u" href="https://github.com/hyperscaleailabs?tab=repositories" target="_blank" rel="noopener">github.com/hyperscaleailabs</a>.
+          </p>
+          <p style="margin-top:2rem">
+            <a class="btn" href="projects.html">Browse projects <span class="arrow" aria-hidden="true">→</span></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <p class="label">Contact</p>
+        <h2 class="display">Let's talk about<br>what breaks.</h2>
+        <a class="btn" href="mailto:constantine.gurnov@gmail.com">constantine.gurnov@gmail.com <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div>
+        <p class="label">Elsewhere</p>
+        <ul class="foot-list">
+          <li><a href="https://www.linkedin.com/in/constantinegurnov/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/hyperscaleailabs" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="cv/Constantine_Gurnov_CV.pdf">Curriculum vitae ↓</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">Index</p>
+        <ul class="foot-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="projects.html">Open source</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© <span data-year>2026</span> Constantine Gurnov</span>
+      <span>Globe rendered with three.js · land mask from the Apache-2.0 WebGL Globe project</span>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/globe.js"></script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

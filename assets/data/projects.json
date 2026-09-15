@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ai-observability",
+    "description": "Case study in production LLM observability: logs, metrics and traces across LLM pipelines to catch schema drift, malformed output, latency variance and downstream failure.",
+    "url": "https://github.com/hyperscaleailabs/ai-observability",
+    "tags": ["Python", "LLM Reliability", "Case Study"]
+  },
+  {
+    "name": "ai-hyperswarm-proto-core",
+    "description": "Self-improving prototype core for AI swarms — the hsai autonomous loop, with ticket-linked pull requests and a knowledge base the swarm writes back into.",
+    "url": "https://github.com/hyperscaleailabs/ai-hyperswarm-proto-core",
+    "tags": ["Python", "Agentic Systems", "Autonomous SDLC"]
+  },
+  {
+    "name": "ml-platform-engineering",
+    "description": "Working notebooks and reference material on ML platform engineering: feature platforms, training and evaluation pipelines, and the infrastructure underneath them.",
+    "url": "https://github.com/hyperscaleailabs/ml-platform-engineering",
+    "tags": ["Jupyter", "ML Platform", "Reference"]
+  },
+  {
+    "name": "ai-control-queue",
+    "description": "Control-loop patterns for non-deterministic systems — observe, detect, intervene, stabilise, measure — worked through as executable notebooks.",
+    "url": "https://github.com/hyperscaleailabs/ai-control-queue",
+    "tags": ["Jupyter", "Control Loops", "Evaluation"]
+  },
+  {
+    "name": "ai-launchpad",
+    "description": "A launchpad for AI work: structured entry points, references and scaffolding, published as a static site.",
+    "url": "https://github.com/hyperscaleailabs/ai-launchpad",
+    "tags": ["Astro", "Static Site", "Live Demo"]
+  },
+  {
+    "name": "legal-ai",
+    "description": "AI general counsel for small and mid-size businesses — contract triage, redlines, risk scoring and explicit human escalation paths.",
+    "url": "https://github.com/hyperscaleailabs/legal-ai",
+    "tags": ["Applied LLM", "Risk Scoring", "Live Demo"]
+  },
+  {
+    "name": "neuromuscular-optimization-framework",
+    "description": "A framework for articulatory mastery and language adaptation: neuromuscular optimisation for phonetic precision.",
+    "url": "https://github.com/hyperscaleailabs/neuromuscular-optimization-framework",
+    "tags": ["Research", "Framework"]
+  }
+]

@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — Hyperscale AI Labs</title>
+<meta name="description" content="Professional history of Constantine Gurnov: Mass Identity / Hyperscale AI, Neuralink, Sift, Machine Zone, Specta, Luxoft USA : UBS.">
+<link rel="canonical" href="https://hyperscaleailabs.github.io/work.html">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Work — Constantine Gurnov">
+<meta property="og:description" content="Seventeen years of ML platform, AI systems and AI infrastructure engineering.">
+<meta name="theme-color" content="#07080a">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="grid-rules" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+<header class="nav">
+  <div class="shell">
+    <a class="brand" href="index.html">Hyperscale <em>AI Labs</em></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Index</a></li>
+      <li><a href="work.html" aria-current="page">Work</a></li>
+      <li><a href="projects.html">Open Source</a></li>
+      <li><a href="cv/Constantine_Gurnov_CV.pdf">CV ↓</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+<div class="shell">
+
+  <header class="page-head">
+    <p class="label label--accent">Curriculum vitae</p>
+    <h1 class="display d1" style="margin:1.5rem 0">Work</h1>
+    <div class="sec-head">
+      <p class="lede">
+        Six environments across seventeen years, ordered most recent first. The
+        common thread is consequence: systems where being wrong was expensive,
+        irreversible, or unsafe.
+      </p>
+      <p class="body-col">
+        <a class="btn" href="cv/Constantine_Gurnov_CV.pdf">Download PDF <span class="arrow" aria-hidden="true">↓</span></a>
+      </p>
+    </div>
+  </header>
+
+  <section class="sec" style="padding-top:0">
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Present</p>
+        <span class="org">Mass Identity, Inc.<br>/ Hyperscale AI</span>
+        <span class="title">AI Engineer</span>
+        <span class="years">2024 — Present</span>
+      </div>
+      <div class="role-body">
+        <p>Research and prototyping of agentic AI systems; evaluation of frameworks and approaches.</p>
+        <ul class="bullets">
+          <li>
+            Designed a <strong>Production-Informed Accelerated Multi-Agentic Simulation System</strong>:
+            production-derived failure distributions, probabilistic environment and dependency
+            simulation, agent-trajectory and multi-stage workflow evaluation, harness validation
+            and recovery testing, low-cost accelerated execution using smaller models and cached
+            dependencies, anomaly discovery for behaviours absent from historical datasets, and
+            release gates with automated rollback policies.
+          </li>
+          <li>
+            Established the feedback loop that makes the above self-correcting: production
+            execution → telemetry and trajectories → streaming analysis → learned failure
+            distributions → stochastic simulation experiments → evaluation gates → safer
+            release → new production evidence.
+          </li>
+          <li>
+            Designed and built an <strong>LLM observability and reliability harness</strong> to make
+            non-deterministic systems safe in production. Improved structured-output success
+            from <strong>~71% to near-100%</strong> through prompt hardening, validation layers,
+            normalisation and controlled recovery — a deterministic contract enforced over a
+            non-deterministic model.
+          </li>
+          <li>
+            Explored end-to-end observability across LLM pipelines (logs, metrics, traces) to
+            detect schema drift, malformed output, latency variance and downstream failure, and
+            investigated control-loop patterns — observe, detect, intervene, stabilise, measure —
+            with failure-aware recovery: classification-based retries, bounded recovery, and
+            cost/latency trade-off management.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Physical AI</p>
+        <span class="org">Neuralink</span>
+        <span class="title">AI / Software Engineer</span>
+        <span class="years">2022 — 2024</span>
+      </div>
+      <div class="role-body">
+        <p>Real-time, safety-critical, physical-AI machine learning.</p>
+        <ul class="bullets">
+          <li>
+            Built a machine-learning platform that scaled brain–computer-interface model
+            training and evaluation <strong>100×</strong>, to billions of neural data points.
+          </li>
+          <li>
+            Created BCI software and an ML model for <strong>brain-to-text communication</strong>;
+            the system was presented at the Neuralink 2022 Show and Tell.
+          </li>
+          <li>
+            Delivered real-time, partially observable signal pipelines under hard latency and
+            safety constraints — directly analogous to physical-AI and edge-agent control loops
+            (sim-to-real, graceful degradation).
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Internet scale</p>
+        <span class="org">Sift</span>
+        <span class="title">Principal ML Engineer</span>
+        <span class="years">2019 — 2022</span>
+      </div>
+      <div class="role-body">
+        <p>Real-time scoring at scale; adversarial defence; internet-scale reliability.</p>
+        <ul class="bullets">
+          <li>
+            Designed and implemented automated anomaly detection in near real-time streaming
+            and ML scoring at a scale of <strong>billions of events per day</strong>, with peaks
+            of <strong>50K QPS</strong>.
+          </li>
+          <li>
+            Led the research, design and implementation of a bot-detection system countering
+            adversarial attacks that affected more than <strong>40% of Sift's traffic</strong> —
+            adversarial-agent defence.
+          </li>
+          <li>
+            Designed and implemented a Rapid ML Modeling system that improved modelling and
+            prototyping speed by more than <strong>10×</strong>.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Platform</p>
+        <span class="org">Machine Zone</span>
+        <span class="title">Lead Machine Learning Engineer</span>
+        <span class="years">2017 — 2018</span>
+      </div>
+      <div class="role-body">
+        <p>Large-scale distributed machine-learning platform engineering.</p>
+        <ul class="bullets">
+          <li>
+            Designed and built a distributed ML platform supporting billions of events and
+            hundreds of thousands of features, with automated feature extraction and
+            hyperparameter search; reduced existing model-training runtime by more than
+            <strong>10×</strong>.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Applied DL</p>
+        <span class="org">Specta</span>
+        <span class="title">Lead Software Engineer</span>
+        <span class="years">2015 — 2017</span>
+      </div>
+      <div class="role-body">
+        <p>Real-time video understanding and applied deep learning.</p>
+        <ul class="bullets">
+          <li>
+            Built a real-time video-processing mobile app with analysis and classification by
+            deep neural networks; the app automatically generated videos that were
+            <strong>accepted and nominated at international film and fashion festivals</strong>
+            in Denmark and New York.
+          </li>
+          <li>
+            Led R&amp;D on social-media and news sentiment correlation with the S&amp;P 500, and
+            a deep-learning platform matching startups with angel and VC funds.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="role rise">
+      <div class="role-id">
+        <p class="label">Regulated</p>
+        <span class="org">Luxoft USA<br>: UBS</span>
+        <span class="title">Technical Delivery Manager; Head of Big Data &amp; Agile Practices</span>
+        <span class="years">2008 — 2015</span>
+      </div>
+      <div class="role-body">
+        <p>Regulated, high-consequence financial infrastructure — irreversible actions, financial-grade correctness.</p>
+        <ul class="bullets">
+          <li>
+            R&amp;D of UBS mortgage, loan and fixed-income derivatives, Risk/PnL and trading
+            platforms — a front-to-back solution for fixed income and mortgage-backed securities
+            businesses, with total combined notional on the CDS contracts in the range of
+            <strong>$10T+</strong>.
+          </li>
+          <li>
+            R&amp;D of back-office platforms including subledger and clearing &amp; settlement;
+            led <strong>50+ FTE</strong> and <strong>$10M budgets</strong>.
+          </li>
+        </ul>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="sec">
+    <div class="sec-index"><span class="num">—</span><span class="rule"></span><span class="num">Capability</span></div>
+    <div class="sec-head">
+      <h2 class="display d3 reveal-words">Stack &amp; domains</h2>
+      <div class="body-col rise">
+        <p><strong>AI &amp; machine learning</strong> — AI agents, LLMs, deep neural networks, XGBoost, feature platforms.</p>
+        <p><strong>Languages &amp; stacks</strong> — Python, Java, Scala; Kafka, Flink, Spark, Druid, HBase/BigTable, Redis, Kubernetes.</p>
+        <p><strong>Domains</strong> — LLM observability and reliability, anomaly detection, evaluation, streaming architectures, internet-scale distributed systems, ML platforms, brain–computer interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-index"><span class="num">—</span><span class="rule"></span><span class="num">Education</span></div>
+    <div class="sec-head">
+      <h2 class="display d3 reveal-words">Education &amp; certification</h2>
+      <div class="body-col rise">
+        <p><strong>B.S., Computer Science</strong> — Dnipro National University, Ukraine.</p>
+        <p><strong>Stanford MOOC, Artificial Intelligence</strong> (2011) — top 5% of students.</p>
+        <p><strong>Stanford MOOC, Machine Learning</strong> — top 5% of class.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <div class="foot-grid">
+      <div>
+        <p class="label">Contact</p>
+        <h2 class="display">Let's talk about<br>what breaks.</h2>
+        <a class="btn" href="mailto:constantine.gurnov@gmail.com">constantine.gurnov@gmail.com <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div>
+        <p class="label">Elsewhere</p>
+        <ul class="foot-list">
+          <li><a href="https://www.linkedin.com/in/constantinegurnov/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/hyperscaleailabs" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="cv/Constantine_Gurnov_CV.pdf">Curriculum vitae ↓</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">Index</p>
+        <ul class="foot-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="projects.html">Open source</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© <span data-year>2026</span> Constantine Gurnov</span>
+      <span>Built as a static site · no trackers</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
